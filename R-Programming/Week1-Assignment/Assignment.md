@@ -22,12 +22,15 @@ CHECK RESULTS
 
 source("pollutantmean.R")
 pollutantmean("specdata", "sulfate", 1:10)
+
 [1] 4.064
 
 pollutantmean("specdata", "nitrate", 70:72)
+
 [1] 1.706
 
 pollutantmean("specdata", "nitrate", 23)
+
 [1] 1.281
 
 
@@ -87,7 +90,7 @@ head(cr)
 
 summary(cr)
 
-    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
  -0.2110 -0.0500  0.0946  0.1250  0.2680  0.7630
 
 cr <- corr("specdata", 400)
@@ -97,7 +100,7 @@ head(cr)
 
 summary(cr)
 
-    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
  -0.1760 -0.0311  0.1000  0.1400  0.2680  0.7630
 
 cr <- corr("specdata", 5000)
