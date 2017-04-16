@@ -18,9 +18,10 @@ Given a vector monitor ID numbers, ‘pollutantmean’ reads that monitors’ particul
 from the directory specified in the ‘directory’ argument and returns the mean of the pollutant across all of the monitors, 
 ignoring any missing values coded as NA.
 
-CHECK RESULTS
+**CHECK RESULTS**
 
 source("pollutantmean.R")
+
 pollutantmean("specdata", "sulfate", 1:10)
 
 [1] 4.064
@@ -39,9 +40,10 @@ pollutantmean("specdata", "nitrate", 23)
 Write a function that reads a directory full of files and reports the number of completely observed cases in each data file. 
 The function should return a data frame where the first column is the name of the file and the second column is the number of complete cases.
 
-CHECK RESULTS
+**CHECK RESULTS**
 
 source("complete.R")
+
 complete("specdata", 1)
 
    id nobs
@@ -92,11 +94,14 @@ sulfate and nitrate for monitor locations where the number of completely observe
 The function should return a vector of correlations for the monitors that meet the threshold requirement. 
 If no monitors meet the threshold requirement, then the function should return a numeric vector of length 0.
 
-CHECK RESULTS
+**CHECK RESULTS**
 
 source("corr.R")
+
 source("complete.R")
+
 cr <- corr("specdata", 150)
+
 head(cr)
 
 [1] -0.01896 -0.14051 -0.04390 -0.06816 -0.12351 -0.07589
