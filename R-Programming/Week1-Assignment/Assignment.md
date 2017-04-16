@@ -1,6 +1,6 @@
 # Data
 
-The zip file containing the data can be downloaded here: specdata.zip. 
+The zip file containing the data can be downloaded here: [specdata.zip] (https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fspecdata.zip). 
 The zip file contains 332 comma-separated-value (CSV) files containing pollution monitoring data for fine particulate matter (PM) air pollution 
 at 332 locations in the United States. 
 Each file contains data from a single monitor and the ID number for each monitor is contained in the file name. 
