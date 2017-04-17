@@ -94,6 +94,9 @@ sulfate and nitrate for monitor locations where the number of completely observe
 The function should return a vector of correlations for the monitors that meet the threshold requirement. 
 If no monitors meet the threshold requirement, then the function should return a numeric vector of length 0.
 
+For this function you will need to use the 'cor' function in R which calculates the correlation between two vectors. Please read
+the help page for this function via '?cor' and make sure that you know how to use it.
+
 **CHECK RESULTS**
 
 source("corr.R")
