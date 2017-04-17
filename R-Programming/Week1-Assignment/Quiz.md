@@ -23,7 +23,9 @@ If I execute the expression x <- 4 in R, what is the class of the object 'x' as 
 numeric
 
 > x <- 4
+
 > class(x)
+
 [1] "numeric"
 
 # Question 5
@@ -33,7 +35,9 @@ What is the class of the object defined by x <- c(4, TRUE)?
 numeric
 
 > x <- c(4, TRUE)
+
 > class(x)
+
 [1] "numeric"
 
 # Question 6
@@ -86,7 +90,6 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 
 ## Answer
 x[x >= 11] <- 4
-
 > x <- c(17, 14, 4, 5, 13, 12, 10)
 > x[x >= 11] <- 4
 > x
