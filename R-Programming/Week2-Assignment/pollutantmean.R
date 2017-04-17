@@ -5,7 +5,7 @@ pollutantmean <- function (directory,pollutant,id=1:332) {
 # pollutant -> nitrate or sulfate
 # id -> Subset of files to process (from 1 to 332)
 # Sample call:
-# pollutantmean("C:/Coursera/Data Science/2.- R Programming/Week 1/Exercises/specdata","nitrate",1:10)
+# pollutantmean("C:/Coursera/Data Science/2.- R Programming/Week 2/Exercises/specdata","nitrate",1:10)
 ######################################################################################################
     
     # Returns the full name of the files in the directory in a vector

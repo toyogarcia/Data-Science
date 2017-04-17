@@ -5,7 +5,7 @@ complete <- function(directory, id=1:332){
 #   directory -> Path to the files
 #   id        -> Files to return the number of complete cases
 # Sample call:
-#   complete("C:/Coursera/Data Science/2.- R Programming/Week 1/Exercises/specdata",30:25)
+#   complete("C:/Coursera/Data Science/2.- R Programming/Week 2/Exercises/specdata",30:25)
 ###################################################################
     
     # return the list of directory files

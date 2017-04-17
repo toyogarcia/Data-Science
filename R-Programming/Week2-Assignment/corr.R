@@ -5,7 +5,7 @@ corr <- function(directory, thresold = 0){
 #   directory -> path to the data files
 #   thresold  -> thresold for complete cases
 # Sample call:
-#   corr("C:/Coursera/Data Science/2.- R Programming/Week 1/Exercises/specdata",150)
+#   corr("C:/Coursera/Data Science/2.- R Programming/Week 2/Exercises/specdata",150)
 ###################################################################
     
     # Initialize data frame to store files with obs(complete cases) > thresold
