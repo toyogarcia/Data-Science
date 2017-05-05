@@ -1,3 +1,3 @@
 # R-Programming Coursera Content
-## Exercises text and proposed solution
+## Exercises proposed solution
 ## On weekly lesson basis
